@@ -1,0 +1,105 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #181818;
+    padding: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.create-playlist-btn {
+    background-color: #1db954;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.podcasts {
+    margin-top: 20px;
+}
+
+.legal-links {
+    list-style: none;
+    padding: 0;
+}
+
+.legal-links li {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px;
+    width: 80%;
+    overflow-y: auto;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.popular-section {
+    margin-bottom: 40px;
+}
+
+.artists-row, .albums-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artist, .album {
+    text-align: center;
+    flex-basis: 15%;
+}
+
+.artist img, .album img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #282828;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.signup-btn {
+    background-color: #1db954;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
